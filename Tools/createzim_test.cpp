@@ -49,7 +49,7 @@ struct A
     "</body></html>\n" },
   // article [2]
   { 'A', "22222.txt", "22222", "text/plain", "article-22222" },
-  // article [3]
+  // article [3], redirect to article [1]
   { 'A', "33333.html", "33333", 0, "1" },
   // resource(s)
   { '-', "s/style.css", "s/style.css", "text/css", "h1 {color:red; }" },
